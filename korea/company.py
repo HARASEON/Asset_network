@@ -36,5 +36,6 @@ if __name__=="__main__":
             print(m)
             data = get_share_html(m[0]).decode('utf-8')
             open("data/{}".format(m[1]), 'w').write(data)
+            print(data)
         except:
             continue
