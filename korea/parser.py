@@ -30,8 +30,6 @@ def kor_parser(company):
 
 
 if __name__ == "__main__":
-  print("hr")
-
   # to display what we do
   clist = os.listdir("data_korea") # dict into list # korea company list
   company = clist
