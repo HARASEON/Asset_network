@@ -27,7 +27,7 @@ def kor_parser(company):
 
     edges.append((holder, company, {'weight': ratio}))
 
-
+# gen_network.py
 
 if __name__ == "__main__":
   # to display what we do
